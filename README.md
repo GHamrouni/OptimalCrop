@@ -12,6 +12,7 @@ Once you build the project you can use imageResizer:
     imageResizer -in inputDir -out outputDir -width 128 -height 128
 
 
+
 How It Works
 --------------	
  
