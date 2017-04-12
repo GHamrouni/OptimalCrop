@@ -1,20 +1,15 @@
-======================================================================
-OptimalCrop -- Go library for intelligent image re-sizing and cropping
-======================================================================
+## OptimalCrop -- Go library for intelligent image re-sizing and cropping
+
 
 OptimalCrop is a Go library for croping and re-sizing the image by locating the interesting parts.
 
-Testing
----------
+### Testing
 
 Once you build the project you can use imageResizer:
 
     imageResizer -in inputDir -out outputDir -width 128 -height 128
 
-
-
-How It Works
---------------	
+### How It Works
  
 The interestingness of an image is subjective and may vary from one person to another. One way to quantitatively measure the interestingness is to measure the informations contained in that image. I thought that an interesting region of an image is a zone that carries a lot of informations. We need to be able to calculate the information at each individual pixel of the image to find out the information of a particular region.
 One could calculate the information of the pixel based on information theoretic definition:
